@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.ps1 text eol=crlf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.onnx binary
+*.docx binary
+*.png binary
+*.jpg binary
+

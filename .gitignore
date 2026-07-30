@@ -1,0 +1,56 @@
+# BioAccess: local secrets and biometric data
+config.env
+.env
+*.env.local
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.dpapi
+*.pem
+*.key
+
+# Python environments, caches, and locally installed dependencies
+.venv*/
+venv/
+env/
+.deps/
+.build-deps/
+vendorlibs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging outputs
+build/
+dist/
+output/
+*.spec.bak
+*.zip
+
+# .NET build outputs and locally bundled runtimes/SDKs
+tools/dotnet-x86/
+tools/dotnet-sdk/
+tools/FutronicCaptureHelper/bin/
+tools/FutronicCaptureHelper/obj/
+
+# Vendor biometric binaries: obtain from the licensed Futronic SDK
+biometric_app/vendor/futronic/*.dll
+
+# Temporary files, logs, previews, and generated QA renders
+tmp/
+*.log
+*.tmp
+*.bak
+/query
+~$*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
